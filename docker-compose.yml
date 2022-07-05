@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    entrypoint: ./.docker/entrypoint.sh
+    container_name: 'next-frontend-app'
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app
+      - ./node_modules:/usr/src/app/node_modules
+    extra_hosts:
+      - 'host.docker.internal:172.17.0.1'
