@@ -43,6 +43,9 @@ const Contact = () => {
               <Link href="https://www.instagram.com/vitoralcantara122/">
                 <i className="ri-instagram-line"></i>
               </Link>
+               <Link href="https://www.linkedin.com/in/jo%C3%A3o-vitor-4bb732229/">
+                <i className="ri-linkedin-line"></i>
+              </Link>
             </div>
           </Col>
 
