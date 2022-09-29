@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import SectionSubtitle from './SectionSubtitle'
 import { Container, Row, Col } from 'reactstrap'
@@ -31,7 +32,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image
+              <img
                 alt="hero-image"
                 src={
                   'https://raw.githubusercontent.com/Drack112/Portfolio/master/public/images/hero.jpeg'
