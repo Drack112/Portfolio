@@ -33,7 +33,9 @@ const Hero = () => {
             <div className={`${classes.hero__img} text-end`}>
               <Image
                 alt="hero-image"
-                src="https://raw.githubusercontent.com/Drack112/Portfolio/master/public/images/hero.jpeg"
+                src={
+                  'https://raw.githubusercontent.com/Drack112/Portfolio/master/public/images/hero.jpeg'
+                }
               />
 
               <div
