@@ -1,9 +1,9 @@
-import React from "react";
-import SectionSubtitle from "./SectionSubtitle";
-import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
-import heroImg from "../../public/images/hero.jpg";
-import classes from "../../styles/hero.module.css";
+import React from 'react'
+import SectionSubtitle from './SectionSubtitle'
+import { Container, Row, Col } from 'reactstrap'
+import Image from 'next/image'
+import heroImg from '../../public/images/hero.png'
+import classes from '../../styles/hero.module.css'
 
 const Hero = () => {
   return (
@@ -50,7 +50,7 @@ const Hero = () => {
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
