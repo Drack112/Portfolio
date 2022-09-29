@@ -1,15 +1,14 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
-import SectionSubtitle from "./SectionSubtitle";
-import Image from "next/image";
+import React from 'react'
+import { Container, Row, Col } from 'reactstrap'
+import Link from 'next/link'
+import SectionSubtitle from './SectionSubtitle'
+import Image from 'next/image'
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img01 from '../../public/images/img-01.jpg'
+import img02 from '../../public/images/img-02.jpg'
+import img03 from '../../public/images/img-03.jpg'
 
-import classes from "../../styles/about.module.css";
+import classes from '../../styles/about.module.css'
 
 const About = () => {
   return (
@@ -22,7 +21,7 @@ const About = () => {
             <h3 className="mb-4">Hora de contar um pouco do que eu sei.</h3>
             <p>
               Atualmente eu sou um desenvolvedor Backend de Python, TypeScript,
-               e alguns conhecimentos de Golang. Sempre gosto de implementar
+              e alguns conhecimentos de Golang. Sempre gosto de implementar
               ferramentas para me ajudar no desenvolvimento como Docker,
               plataformas de comunicação como Discord e nada que um bom café
               para impulsionar ☕.
@@ -100,19 +99,13 @@ const About = () => {
                 >
                   <Image src={img03} alt="about-img" />
                 </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img04} alt="about-img" />
-                </div>
               </div>
             </div>
           </Col>
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About
