@@ -37,6 +37,8 @@ const Hero = () => {
                 src={
                   'https://raw.githubusercontent.com/Drack112/Portfolio/master/public/images/hero.jpeg'
                 }
+                width="400px"
+                height={'400px'}
               />
 
               <div
