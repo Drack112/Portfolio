@@ -34,6 +34,7 @@ const Hero = () => {
             <div className={`${classes.hero__img} text-end`}>
               <img
                 alt="hero-image"
+                objectFit="contain"
                 src={
                   'https://raw.githubusercontent.com/Drack112/Portfolio/master/public/images/hero.jpeg'
                 }
