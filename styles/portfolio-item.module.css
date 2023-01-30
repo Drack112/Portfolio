@@ -20,6 +20,7 @@
 
 .portfolio__img img {
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .portfolio__keyword {

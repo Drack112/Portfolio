@@ -1,10 +1,10 @@
-import React from "react";
-import classes from "../../styles/portfolio-item.module.css";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react'
+import classes from '../../styles/portfolio-item.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const PortfolioItem = (props) => {
-  const { title, img, liveUrl, keyword } = props.item;
+  const { title, img, liveUrl, keyword } = props.item
   return (
     <div className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
@@ -26,7 +26,7 @@ const PortfolioItem = (props) => {
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PortfolioItem;
+export default PortfolioItem

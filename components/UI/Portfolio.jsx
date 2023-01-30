@@ -1,42 +1,42 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "reactstrap";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/portfolio.module.css";
-import PortfolioItem from "./PortfolioItem";
+import React, { useState, useEffect } from 'react'
+import { Container, Row, Col } from 'reactstrap'
+import SectionSubtitle from './SectionSubtitle'
+import classes from '../../styles/portfolio.module.css'
+import PortfolioItem from './PortfolioItem'
 
-import portfolioData from "../data/portfolio";
+import portfolioData from '../data/portfolio'
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Aplicação FullStack");
-  const [data, setData] = useState();
+  const [filter, setFilter] = useState('Aplicação FullStack')
+  const [data, setData] = useState()
 
   useEffect(() => {
-    if (filter === "Aplicação FullStack") {
+    if (filter === 'Aplicação FullStack') {
       const filteredData = portfolioData.filter(
-        (item) => item.category === filter
-      );
+        (item) => item.category === filter,
+      )
 
-      setData(filteredData);
+      setData(filteredData)
     }
 
-    if (filter === "Eventos") {
+    if (filter === 'Eventos') {
       const filteredData = portfolioData.filter(
-        (item) => item.category === filter
-      );
+        (item) => item.category === filter,
+      )
 
-      setData(filteredData);
+      setData(filteredData)
     }
 
-    if (filter === "Projetos") {
+    if (filter === 'Projetos') {
       const filteredData = portfolioData.filter(
-        (item) => item.category === filter
-      );
+        (item) => item.category === filter,
+      )
 
-      setData(filteredData);
+      setData(filteredData)
     }
-  }, [filter]);
+  }, [filter])
 
-  const active = `${classes.tab__btn__active}`;
+  const active = `${classes.tab__btn__active}`
 
   return (
     <section id="portfolio">
@@ -51,25 +51,25 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Aplicação FullStack" ? active : ""
+                  filter === 'Aplicação FullStack' ? active : ''
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Aplicação FullStack")}
+                onClick={() => setFilter('Aplicação FullStack')}
               >
                 Aplicação FullStack
               </button>
               <button
                 className={` ${
-                  filter === "Eventos" ? active : ""
+                  filter === 'Eventos' ? active : ''
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Eventos")}
+                onClick={() => setFilter('Eventos')}
               >
                 Eventos
               </button>
               <button
                 className={`${
-                  filter === "Projetos" ? active : ""
+                  filter === 'Projetos' ? active : ''
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Projetos")}
+                onClick={() => setFilter('Projetos')}
               >
                 Projetos
               </button>
@@ -84,7 +84,7 @@ const Portfolio = () => {
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
