@@ -1,12 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Link from 'next/link'
 import SectionSubtitle from './SectionSubtitle'
-import Image from 'next/image'
-
-import img01 from '../../public/images/img-01.jpg'
-import img02 from '../../public/images/img-02.jpg'
-import img03 from '../../public/images/img-03.jpg'
 
 import classes from '../../styles/about.module.css'
 
@@ -21,8 +17,10 @@ const About = () => {
             <h3 className="mb-4">Hora de contar um pouco do que eu sei.</h3>
             <p>
               Atualmente eu sou um desenvolvedor Backend de Python, TypeScript,
-              e Golang, atualmente estou estudando temas abordando mais o DevOps
-              como Kubernetes, Service Mesh, gateways e etc.
+              e Golang, no meu tempo disponível estou estudando temas abordando
+              mais o DevOps, como Kubernetes, Service Mesh, gateways e etc. (E
+              também jogando Warframe e lendo mangás como Ghost In The Shell ou
+              alguns livros)
             </p>
             <p>
               Sempre gosto de implementar ferramentas para me ajudar no
@@ -84,13 +82,19 @@ const About = () => {
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img01} alt="about-img" />
+                  <img src="images/img-01.jpg" alt="about-img" />
                 </div>
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img02} alt="about-img" />
+                  <img src="images/img-02.jpg" alt="about-img" />
+                </div>
+
+                <div
+                  className={`${classes.about__img} ${classes.about__img__box}`}
+                >
+                  <img src="images/img-06.jpg" alt="about-img" />
                 </div>
               </div>
 
@@ -98,7 +102,19 @@ const About = () => {
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img03} alt="about-img" />
+                  <img src="images/img-03.jpg" alt="about-img" />
+                </div>
+
+                <div
+                  className={`${classes.about__img} ${classes.about__img__box}`}
+                >
+                  <img src="images/img-04.jpg" alt="about-img" />
+                </div>
+
+                <div
+                  className={`${classes.about__img} ${classes.about__img__box}`}
+                >
+                  <img src="images/img-05.jpg" alt="about-img" />
                 </div>
               </div>
             </div>
