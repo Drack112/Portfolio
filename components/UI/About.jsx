@@ -21,15 +21,15 @@ const About = () => {
             <h3 className="mb-4">Hora de contar um pouco do que eu sei.</h3>
             <p>
               Atualmente eu sou um desenvolvedor Backend de Python, TypeScript,
-              e alguns conhecimentos de Golang. Sempre gosto de implementar
-              ferramentas para me ajudar no desenvolvimento como Docker,
-              plataformas de comunicação como Discord e nada que um bom café
-              para impulsionar ☕.
+              e Golang, atualmente estou estudando temas abordando mais o DevOps
+              como Kubernetes, Service Mesh, gateways e etc.
             </p>
             <p>
-              Atualmente estou estudando micro serviços, cultura de
-              desenvolvimento DevOps e sistemas de fileiras como RabbitMQ e
-              streaming de dados como o Apache Kafka.
+              Sempre gosto de implementar ferramentas para me ajudar no
+              desenvolvimento como Docker, plataformas de comunicação como
+              Discord, padrões de boas práticas como SOLID, DRY e testes
+              automatizados, dependendo da complexidade eu consigo implementar
+              Clean Arch e nada que um bom café para impulsionar ☕.
             </p>
             <p>Posso ajudar você em:</p>
 
@@ -55,7 +55,8 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Desenvolver a solução em que ambas as partes concordem.
+                  Desenvolver aplicações documentadas, testadas automaticamente
+                  e escaláveis.
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
