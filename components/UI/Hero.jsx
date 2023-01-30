@@ -2,7 +2,7 @@
 import React from 'react'
 import SectionSubtitle from './SectionSubtitle'
 import { Container, Row, Col } from 'reactstrap'
-import Image from 'next/image'
+
 import classes from '../../styles/hero.module.css'
 
 const Hero = () => {
@@ -16,16 +16,19 @@ const Hero = () => {
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">Bem-vindo(a)</h2>
               <p>
-                Se está procurando um desenvolvedor Backend, você acabou de
-                encontrar um :D
+                Seja bem vindo ao meu website pessoal, e se você estava
+                procurando um desenvolvedor Backend, você acabou de achar um!
               </p>
               <p>
                 Me chamo João Vitor e estou pronto para te ajudar no projeto que
                 você desejar. Continue descendo a página para saber um pouco
-                mais.
+                mais do que eu faço e com o que eu trabalho.
               </p>
 
-              <p>Você também pode me encontrar com o nome de Drack.</p>
+              <p>
+                Você também pode me encontrar com o nome de Drack em algumas
+                redes sociais como o Discord.
+              </p>
             </div>
           </Col>
 
@@ -35,9 +38,7 @@ const Hero = () => {
               <img
                 alt="hero-image"
                 objectFit="contain"
-                src={
-                  'https://raw.githubusercontent.com/Drack112/Portfolio/master/public/images/hero.jpeg'
-                }
+                src="/images/hero.jpeg"
                 width="400px"
                 height={'400px'}
               />
