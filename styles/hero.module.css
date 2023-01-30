@@ -17,6 +17,9 @@
 
 .hero__img img {
   border-radius: 50px 5px 5px 5px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .hero__skills {
