@@ -35,13 +35,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <img
-                alt="hero-image"
-                objectFit="contain"
-                src="/images/hero.jpeg"
-                width="400px"
-                height={'400px'}
-              />
+              <img alt="hero-image" src="/images/hero.jpeg" />
 
               <div
                 className={`${classes.hero__experience} d-flex align-items-center gap-3`}
