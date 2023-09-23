@@ -9,7 +9,7 @@ export default class NextDocument extends Document {
           <meta charset="UTF-8" />
           <meta
             name="description"
-            content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu portfolio."
+            content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu WebSite."
           />
           <meta name="author" content="João Vitor Alcântara Cavalcante" />
           <meta name="categories" content="Portfolio" />
@@ -17,7 +17,7 @@ export default class NextDocument extends Document {
           <meta property="og:title" content="Portfolio" />
           <meta
             property="og:description"
-            content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu portfolio."
+            content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu WebSite."
           />
           <meta property="og:type" content="video.movie" />
           <meta property="og:url" content="https://drack112.vercel.app/" />
@@ -30,7 +30,7 @@ export default class NextDocument extends Document {
           <meta name="twitter:title" content="Portfolio" />
           <meta
             name="twitter:description"
-            content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu portfolio."
+            content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu WebSite."
           />
           <meta name="twitter:site" content="Portfolio" />
           <meta
@@ -63,7 +63,7 @@ export default class NextDocument extends Document {
             sizes="16x16"
             href="/images/icon.png"
           />
-          <title>Hello =D</title>
+          <title>Drack</title>
         </Head>
         <body>
           <Main />

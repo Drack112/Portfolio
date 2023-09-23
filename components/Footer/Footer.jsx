@@ -11,11 +11,11 @@ const NAV__LINK = [
   },
   {
     path: '#about',
-    display: 'About',
+    display: 'Sobre',
   },
   {
     path: '#services',
-    display: 'Services',
+    display: 'Serviços',
   },
   {
     path: '#portfolio',
@@ -23,7 +23,7 @@ const NAV__LINK = [
   },
   {
     path: '#contact',
-    display: 'Contact',
+    display: 'Contato',
   },
 ]
 

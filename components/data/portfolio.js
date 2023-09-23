@@ -87,14 +87,6 @@ const portfolio = [
     liveUrl: 'https://github.com/Drack112/Treina-Web-Django',
   },
   {
-    id: '11',
-    title: 'Amazon Flutter',
-    img: '/images/portfolio-11.png',
-    category: 'Eventos',
-    keyword: ['backend', 'mobile', 'flutter', 'nodejs'],
-    liveUrl: 'https://github.com/Drack112/Amazon_Mobile',
-  },
-  {
     id: '12',
     title: 'FullCycle 3.0',
     img: '/images/portfolio-12.jpg',

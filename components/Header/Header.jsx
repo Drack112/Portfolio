@@ -6,26 +6,26 @@ import Link from "next/link";
 
 const NAV__LINK = [
   {
-    path: "/",
-    display: "Home",
+    path: '/',
+    display: 'Home',
   },
   {
-    path: "#about",
-    display: "About",
+    path: '#about',
+    display: 'Sobre',
   },
   {
-    path: "#services",
-    display: "Services",
+    path: '#services',
+    display: 'Serviços',
   },
   {
-    path: "#portfolio",
-    display: "Portfolio",
+    path: '#portfolio',
+    display: 'Portfolio',
   },
   {
-    path: "#contact",
-    display: "Contact",
+    path: '#contact',
+    display: 'Contato',
   },
-];
+]
 
 const Header = () => {
   const headerRef = useRef(null);

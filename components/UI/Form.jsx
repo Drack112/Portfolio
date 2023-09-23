@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <form
       className={`${classes.form}`}
-      action="https://formsubmit.co/joaosagrado3@gmail.com"
+      action="https://formsubmit.co/joaosagrado3@outlook.com"
       method="POST"
     >
       <div className={`${classes.form__group}`}>

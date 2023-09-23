@@ -29,7 +29,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+55 (11) 95376-3506</p>
+                <p>+55 (11) 94903-2410</p>
               </li>
             </ul>
 
