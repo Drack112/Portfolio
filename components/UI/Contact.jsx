@@ -37,9 +37,6 @@ const Contact = () => {
               <Link href="https://github.com/Drack112">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="https://twitter.com/JooVito01752052">
-                <i className="ri-twitter-line"></i>
-              </Link>
               <Link href="https://www.instagram.com/vitoralcantara122/">
                 <i className="ri-instagram-line"></i>
               </Link>
