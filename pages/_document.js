@@ -6,7 +6,7 @@ export default class NextDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta
             name="description"
             content="Seja bem vindo ao meu site pessoal, me chame de João Vitor, ou nas redes sociais que uso, pode me chamar de Drack também. E é um prazer ter você aqui explorando meu WebSite."

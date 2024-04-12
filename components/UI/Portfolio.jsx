@@ -7,19 +7,11 @@ import PortfolioItem from './PortfolioItem'
 import portfolioData from '../data/portfolio'
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState('Aplicação FullStack')
+  const [filter, setFilter] = useState('Aplicações FullStack')
   const [data, setData] = useState()
 
   useEffect(() => {
-    if (filter === 'Aplicação FullStack') {
-      const filteredData = portfolioData.filter(
-        (item) => item.category === filter,
-      )
-
-      setData(filteredData)
-    }
-
-    if (filter === 'Eventos') {
+    if (filter === 'Aplicações FullStack') {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter,
       )
@@ -28,6 +20,14 @@ const Portfolio = () => {
     }
 
     if (filter === 'Projetos') {
+      const filteredData = portfolioData.filter(
+        (item) => item.category === filter,
+      )
+
+      setData(filteredData)
+    }
+
+    if (filter === 'Formações') {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter,
       )
@@ -51,19 +51,19 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === 'Aplicação FullStack' ? active : ''
+                  filter === 'Aplicações FullStack' ? active : ''
                 } secondary__btn text-white`}
-                onClick={() => setFilter('Aplicação FullStack')}
+                onClick={() => setFilter('Aplicações FullStack')}
               >
-                Aplicação FullStack
+                Aplicações FullStack
               </button>
               <button
-                className={` ${
-                  filter === 'Eventos' ? active : ''
+                className={`${
+                  filter === 'Formações' ? active : ''
                 } secondary__btn text-white`}
-                onClick={() => setFilter('Eventos')}
+                onClick={() => setFilter('Formações')}
               >
-                Eventos
+                Formações
               </button>
               <button
                 className={`${

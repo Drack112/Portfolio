@@ -16,19 +16,16 @@ const About = () => {
             <h3 className="mt-4">Opa!</h3>
             <h3 className="mb-4">Hora de contar um pouco do que eu sei.</h3>
             <p>
-              Atualmente eu sou um desenvolvedor Backend de Python, TypeScript,
-              e Golang, no meu tempo disponível estou estudando temas abordando
-              mais o DevOps, como Kubernetes, Service Mesh, gateways e etc. (E
-              também jogando Warframe e lendo mangás como Ghost In The Shell ou
-              alguns livros)
+              Me chamo João Vitor e sou um desenvolvedor Backend com dois anos
+              de experiência. Atualmente, tenho habilidade em construir e dar
+              manutenção a sistemas REST, GraphQL e micro serviços, além de
+              automatizar ambientes de desenvolvimento com Docker e outras
+              ferramentas. Trabalho principalmente com Node.js, utilizando
+              frameworks como Adonis, Express e NestJS. Também tenho
+              conhecimento em Flask e Django Rest com Python, e uma compreensão
+              adicional em Golang com o micro-framework Gin.
             </p>
-            <p>
-              Sempre gosto de implementar ferramentas para me ajudar no
-              desenvolvimento como Docker, plataformas de comunicação como
-              Discord, padrões de boas práticas como SOLID, DRY e testes
-              automatizados, dependendo da complexidade eu consigo implementar
-              Clean Arch e nada que um bom café para impulsionar ☕.
-            </p>
+
             <p>Posso ajudar você em:</p>
 
             <div className=" d-flex align-items-center gap-5">

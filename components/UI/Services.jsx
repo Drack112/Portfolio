@@ -17,10 +17,7 @@ const Services = () => {
 
                 <ServicesItem title="Monitoramento" icon="ri-computer-line" />
               </div>
-              <ServicesItem
-                title="Desenvolvimento Backend"
-                icon="ri-code-s-slash-line"
-              />
+              <ServicesItem title="Backend" icon="ri-code-s-slash-line" />
             </div>
           </Col>
 
@@ -31,12 +28,11 @@ const Services = () => {
             <h3 className="mb-4">E de fácil manutenção</h3>
 
             <p>
-              Tanto API's REST / GraphQL quanto aplicativos integrados a
-              sistemas baseados em micro-serviços, podendo esses conter Cache,
-              entrega de dados por gRPC, autenticação, gerenciamento de banco de
-              dados e sempre focado ao desenvolvimento em equipe usando
-              ferramentas para auxiliar em versionamento, gestor de dependências
-              e outros serviços.
+              Tenho experiência tanto na construção de API's REST / GraphQL
+              quanto na integração de aplicativos com sistemas baseados em
+              micro-serviços. Sempre priorizo o desenvolvimento em equipe,
+              utilizando ferramentas para facilitar o versionamento,
+              gerenciamento de dependências e outros serviços.
             </p>
           </Col>
         </Row>
